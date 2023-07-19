@@ -236,6 +236,9 @@ nav {
 }
 
 /* play-instant section */
+.play-instant{
+    margin-top: 120px;
+}
 .play-instant-container {
     display: flex;
     justify-content: space-between;
