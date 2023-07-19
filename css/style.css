@@ -35,7 +35,7 @@ nav {
 
 .nav-logo-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -51,7 +51,7 @@ nav {
     text-align: center;
     font-weight: 500;
     font-size: 18px;
-    margin-right: 32px;
+    margin-left: 32px;
 }
 
 .menu-btn {
@@ -60,32 +60,36 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     padding: 17px 24px;
 }
-.icon{
+
+.icon {
     margin-left: 16px;
 }
 
 /* banner section */
+#banner-container {
+    background-image: url('../images/banner-background.png');
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
+
 .banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner-content {
-    background-image: url(../images/banner-background.png);
-    gap: 68px;
-}
-
 .banner-content h3 {
     color: #0B0223;
-    /* text-align: center; */
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .banner-content h1 {
-    /* text-align: center; */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
@@ -122,6 +126,10 @@ nav {
     text-transform: uppercase;
 }
 
+.banner-img img {
+    width: 650px;
+}
+
 /* gamer section */
 .gamer-content {
     display: flex;
@@ -135,6 +143,10 @@ nav {
 }
 
 .gamer-content-text h3 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 48px;
     font-weight: 700;
     margin-top: 95px;
@@ -186,6 +198,13 @@ nav {
     margin-bottom: 10px;
 }
 
+.funny-vedio {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .online-game-text {
     color: #534C64;
     text-align: center;
@@ -193,6 +212,7 @@ nav {
     font-weight: 400;
     margin-bottom: 48px;
 }
+
 
 /* play-instant section */
 .play-instant-container {
@@ -233,4 +253,9 @@ nav {
     height: 365px;
     position: relative;
     bottom: 250px;
+}
+
+.footer-section {
+    justify-content: center;
+    align-items: center;
 }
