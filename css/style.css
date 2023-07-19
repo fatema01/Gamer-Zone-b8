@@ -255,7 +255,71 @@ nav {
     bottom: 250px;
 }
 
+/* footer section */
 .footer-section {
+    text-align: center;
+    background-color: #0B0223;
+}
+
+.footer-logo-container {
+    padding-top: 124px;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-logo-container h3 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-logo-container img {
+    width: 86.041px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.footer-Our-Story {
+    margin-top: 56px;
+}
+
+.footer-Our-Story a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.footer-icon {
+    margin-top: 56px;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    margin-left: 32px;
+    width: 30px;
+    margin-top: 56px;
+}
+
+.footer-Terms-and-Conditions {
+    margin-top: 74px;
+}
+
+.footer-Terms-and-Conditions a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.footer-section p {
+    padding-top: 28px;
+    padding-bottom: 130px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
 }
