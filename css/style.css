@@ -583,10 +583,12 @@ nav {
         margin-left: 70px;
         margin-right: 70px;
     }
-    .online-game-title{
+
+    .online-game-title {
         margin-left: 10px;
         margin-right: 10px;
     }
+
     .online-game h3 {
         font-size: 1.7rem;
         padding: 0px 15px;
@@ -603,6 +605,40 @@ nav {
     .online-games-img1 p {
         font-size: 1rem;
         margin-bottom: 30px;
+    }
+
+    /* play instant responsive */
+    .play-instant-container {
+        flex-direction: column;
+    }
+
+    .play-instant-content {
+        text-align: center;
+        margin-bottom: 74px;
+    }
+
+    .play-instant-content h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .play-instant-content p {
+        font-size: 1rem;
+    }
+    .play-instant-img{
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+    .play-img-1 {
+        width: 300px;
+        height: 350px;
+    }
+
+    .play-img-2 img{
+        margin-top: 90px;
+        width: 210px;
+        height: 250px;
     }
 
 }
