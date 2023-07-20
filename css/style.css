@@ -625,20 +625,48 @@ nav {
     .play-instant-content p {
         font-size: 1rem;
     }
-    .play-instant-img{
+
+    .play-instant-img {
         margin-right: 40px;
         margin-left: 40px;
         margin-bottom: 0px;
     }
+
     .play-img-1 {
         width: 300px;
         height: 350px;
     }
 
-    .play-img-2 img{
+    .play-img-2 img {
         margin-top: 90px;
         width: 210px;
         height: 250px;
+    }
+
+    /* icon responsive */
+    .icon-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 0px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    .icon-container p {
+        font-size: .5rem;
+    }
+
+    .icon-container img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-content:hover {
+        border: 2px solid #FF42A5;
+    }
+
+    .icon-container {
+        gap: 0px;
     }
 
 }
