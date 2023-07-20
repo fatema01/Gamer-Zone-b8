@@ -129,6 +129,7 @@ nav {
     padding: 21px 40px;
     margin-top: 41px;
     text-transform: uppercase;
+    margin-right: 24px;
 }
 
 .banner-btn-2 {
@@ -468,7 +469,21 @@ nav {
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    nav {
+    .nav-container
+    {
         flex-direction: column;
+        margin-top: 62px;
+    }
+    .nav-items-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-list{
+        margin-top: 32px;
+    }
+    .menu-btn{
+        margin-top: 62px;
     }
 }
