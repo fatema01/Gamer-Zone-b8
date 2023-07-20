@@ -236,7 +236,7 @@ nav {
     align-items: center;
 }
 
-.online-games-img img {
+.flat-img>img {
     width: 300px;
     height: 350px;
 }
@@ -254,6 +254,41 @@ nav {
 
 /* online game hover */
 
+.content {
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.content p {
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content:hover {
+    border: 3px solid #FF42A5;
+    opacity: 1;
+}
+
+.content img {
+    width: 48px;
+    height: 48px;
+}
+
+.flat-img {
+    width: 300px;
+    position: relative;
+}
 
 /* play-instant section */
 .play-instant {
