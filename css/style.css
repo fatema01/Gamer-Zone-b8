@@ -542,4 +542,20 @@ nav {
         font-weight: 600;
         margin-left: 20px;
     }
+
+    /* gamer section responsive*/
+    .gamer-content {
+        flex-direction: column;
+    }
+
+    .gamer-content img {
+        width: 400px;
+        height: 300px;
+        margin-top: 62px;
+    }
+    .gamer-content-text{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
