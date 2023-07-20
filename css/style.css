@@ -469,21 +469,77 @@ nav {
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    .nav-container
-    {
+    nav {
+        box-shadow: none;
+    }
+
+    .nav-container {
         flex-direction: column;
         margin-top: 62px;
     }
-    .nav-items-container{
+
+    .nav-items-container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .nav-list{
+
+    .nav-list {
         margin-top: 32px;
     }
-    .menu-btn{
+
+    .menu-btn {
         margin-top: 62px;
+    }
+
+    /* banner responsive */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    #banner-container {
+        background-image: none;
+    }
+
+    .banner-img img {
+        width: 80%;
+        margin: 40px;
+    }
+
+    .banner-content {
+        background-image: url('../images/banner-background.png');
+        text-align: center;
+
+    }
+
+    .banner-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .banner-content h1 {
+        font-size: 5rem;
+    }
+
+    .banner-text-img {
+        margin-top: 24px;
+        margin-left: 30px;
+        margin-bottom: 41px;
+    }
+
+    .banner-text-img p {
+        font-size: 1rem;
+    }
+
+    .banner-btn-1 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-right: 0px;
+    }
+
+    .banner-btn-2 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 20px;
     }
 }
